@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Custom Properties */
+
+
+/* General styles */
+
+body {
+    background-color: #FFF;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+}
+
+
+
+/* Nav Section */
+
+.header-nav-container {
+    background-color: #1F2937;
+    position: sticky;
+    top: 0;
+}
+
+.header-logo {
+    display: inline-block;
+    position: absolute;
+    margin-left: 7rem; 
+    padding-top: 1rem;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 7rem;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+
+/* Hero Section */
+.hero-text-container {
+    display: flex;
+    background-color: #1F2937;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    
+}
+
+.hero-cta h1,
+.hero-cta p,
+.btn-cta {
+    display: block;
+}
+
+.hero-cta {
+    margin-left: 7rem;
+}
+
+
+
+
+.hero-img img {
+    display: inline-block;
+    width: 200px;
+    border: 0.25rem solid grey;
+    border-radius: 4%;
+    margin: 1rem 7rem 1rem 0;
+}
+
+
+
+/* Content section */
+
+
+.content {
+    background-color #fff;
+    
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+
+}
+
+
+.content-title {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.products {
+    width: 100px;
+    justify-content: space-between;
+    gap:50px;
+    align-items: center;
+    padding-bottom: 30px;
+    
+}
+
+
+
+.product-desc {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 0 7rem;
+}
+
+.product-desc p{
+    display: block;
+    max-width: 100px;
+    padding-bottom: 20px;
+}
+
+
+/* Quotation Section */
+
+.quotation {
+    background: #E5E7EB;
+    font-weight: 700;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.quotation-text {
+    text-align: justify;
+    /* padding: 10px 12.5vw 10px 12.5vw; */
+    margin: 3.5rem 7rem;
+}
+
+
+/* footer section */
+
+
+.footer {
+    background-color: #1F2937;
+    color: #fff;
+    bottom: 0;
+    text-align: center;
+    width: 100vw;
+    height: 50px;
+    display: inline-block
+}
+
+.footer p {
+    padding-top: 10px;
+}
